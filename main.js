@@ -458,7 +458,17 @@ let menuTexts = {
     copy: 'Kopiëren',
     paste: 'Plakken',
     selectAll: 'Alles selecteren'
-  }
+  },
+  my: {
+    about: 'Informasi',
+    quit: 'Tutup',
+    edit: 'Ubah suai',
+    undo: 'Patah balik',
+    redo: 'Lakukan balik',
+    cut: 'Potong',
+    copy: 'Salin',
+    paste: 'Tampal',
+    selectAll: 'Pilih Semua',
 };
 
 // Keep a global reference of the window object, if you don't, the window will
@@ -473,7 +483,7 @@ function createWindow () {
   } else {
     alltomp3.relevanceLanguage = locale;
   }
-  let supportedLocales = ['en', 'fr', 'ar', 'tr', 'fi', 'ja', 'es', 'pt', 'de', 'it', 'hu', 'he', 'ru', 'ir', 'nl'];
+  let supportedLocales = ['en', 'fr', 'ar', 'tr', 'fi', 'ja', 'es', 'pt', 'de', 'it', 'hu', 'he', 'ru', 'ir', 'nl', 'my'];
   let supportedLocale = 'en';
   if (supportedLocales.indexOf(locale) > -1) {
     supportedLocale = locale;
